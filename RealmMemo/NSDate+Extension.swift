@@ -6,6 +6,8 @@
 //  Copyright © 2016年 KumagaiNaoki. All rights reserved.
 //テス
 //プッシュてす
+//マージテス
+//マージテス２
 
 import Foundation
 
