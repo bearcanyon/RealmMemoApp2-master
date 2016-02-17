@@ -17,7 +17,7 @@ class MemoManager: NSObject {
     let realm = try! Realm()
     
     func addPostCollection(memo: Memo){
-        try! realm.write({ () -> Void in
+        try! realm.write({ () in
             realm.add(memo)
             self.memos.insert(memo, atIndex: 0)
         })
